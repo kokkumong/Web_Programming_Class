@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <!--HTML, CSS 기본 문법 정리-->
+    <head>
+        <style type = "text/css">
+            /*클래스 선택자*/
+            .account{
+                /* 상하좌우 여백 */
+                margin : 10px 10px;
+            }
+            #lblid{
+                color : red;
+            }
+            #lblpw{
+                color : blue;
+            }
+            .write{
+                width : 100%;
+            }
+            .login{
+                /*버튼 색깔*/
+                float: right;
+                background: yellow;
+                color : black;
+            }
+        </style>
+    </head>
+    <body>
+        <!--아이디 창 생성-->
+        <div id = "divid">
+            <label id = "lblid">아이디</label>
+            <input type = "text" class = "write">
+        </div>
+
+        <!--비밀번호 창 생성-->
+        <div id = "divpw">
+            <label id = "lblpw">비밀번호</label>
+            <input type = "password" class = "write">
+        </div>
+
+        <!--로그인 버튼 생성-->
+        <button type = "submit" class = "login">로그인</button>   
+    </body>
+</html>
